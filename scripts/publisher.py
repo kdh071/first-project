@@ -13,6 +13,8 @@ def publisher():
       pub.publish(hello_str)
       rate.sleep()
 
+      ## add add
+
 if __name__ == '__main__':
    try:
       publisher()
